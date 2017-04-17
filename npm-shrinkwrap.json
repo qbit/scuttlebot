@@ -1063,25 +1063,25 @@
       "from": "kind-of@>=3.0.2 <4.0.0",
       "resolved": "https://registry.npmjs.org/kind-of/-/kind-of-3.1.0.tgz"
     },
-    "level": {                                                                                                                                                                       
-      "version": "1.6.0",                                                                                                                                                            
-      "from": "level@>=1.4.0 <2.0.0",                                                                                                                                                
-      "resolved": "https://registry.npmjs.org/level/-/level-1.6.0.tgz",                                                                                                              
-      "dependencies": {                                                                                                                                                              
-        "leveldown": {                                                                                                                                                               
-           "version": "1.6.0",                                                                                                                                                       
-           "from": "leveldown@>=1.6.0 <1.7.0",                                                                                                                                       
-           "resolved": "git://github.com/level/leveldown.git",                                                                                                                       
-           "dependencies": {                                                                                                                                                         
-             "abstract-leveldown": {                                                                                                                                                 
-               "version": "2.6.1",                                                                                                                                                   
-               "from": "abstract-leveldown@>=2.6.1 <2.7.0",                                                                                                                          
-               "resolved": "https://registry.npmjs.org/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz"                                                                            
-             }                                                                                                                                                                       
-           }                                                                                                                                                                         
-        }                                                                                                                                                                            
-      }                                                                                                                                                                              
-    }, 
+    "level": {
+      "version": "1.6.0",
+      "from": "level@>=1.4.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/level/-/level-1.6.0.tgz",
+      "dependencies": {
+        "leveldown": {
+           "version": "1.6.0",
+           "from": "leveldown@>=1.6.0 <1.7.0",
+           "resolved": "git://github.com/level/leveldown.git",
+           "dependencies": {
+             "abstract-leveldown": {
+               "version": "2.6.1",
+               "from": "abstract-leveldown@>=2.6.1 <2.7.0",
+               "resolved": "https://registry.npmjs.org/abstract-leveldown/-/abstract-leveldown-2.6.1.tgz"
+             }
+           }
+        }
+      }
+    },
     "level-codec": {
       "version": "6.1.0",
       "from": "level-codec@>=6.1.0 <6.2.0",
