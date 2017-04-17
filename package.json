@@ -11,6 +11,7 @@
     "atomic-file": "0.0.1",
     "bash-color": "~0.0.3",
     "broadcast-stream": "~0.0.0",
+    "level-sublevel": "^6.6.1",
     "cont": "~1.0.3",
     "cross-spawn": "^5.1.0",
     "deep-equal": "^1.0.1",
@@ -64,8 +65,6 @@
   "devDependencies": {
     "cat-names": "~1.0.2",
     "dog-names": "~1.0.2",
-    "level-sublevel": "~6.3.15",
-    "level-test": "^2.0.1",
     "noderify": "~1.0.0",
     "ssb-msg-schemas": "~3.2.0",
     "tape": "~4.0.0"
@@ -75,7 +74,7 @@
   },
   "scripts": {
     "build": "noderify bin.js > sbot.js",
-    "prepublish": "npm ls && npm test && npm run build",
+    "prepublish": "npm test && npm run build",
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Paul Frazee <pfrazee@gmail.com>",
