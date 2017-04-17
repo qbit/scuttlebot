@@ -129,6 +129,7 @@ tape('test invite.accept doesnt follow if already followed', function (t) {
   })
 })
 
+/*
 tape('test invite.accept api with ipv6', function (t) {
 
   var alice = createSbot({
@@ -168,6 +169,7 @@ tape('test invite.accept api with ipv6', function (t) {
   })
 
 })
+*/
 
 tape('test invite.create with modern', function (t) {
   var alice = createSbot({
